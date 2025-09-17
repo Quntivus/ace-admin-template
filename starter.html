@@ -45,24 +45,24 @@
         <div class="navbar-inner brc-grey-l2 shadow-md">
 
           <!-- this button collapses/expands sidebar in desktop mode -->
-          <button type="button" class="btn btn-burger align-self-center d-none d-xl-flex mx-2" data-toggle="sidebar" data-target="#sidebar" aria-controls="sidebar" aria-expanded="true" aria-label="Toggle sidebar">
+          <button type="button" class="btn btn-burger align-self-center d-none d-xl-flex mx-2" data-bs-toggle="sidebar" data-bs-target="#sidebar" aria-controls="sidebar" aria-expanded="true" aria-label="Toggle sidebar">
             <span class="bars"></span>
           </button>
 
           <div class="d-flex h-100 align-items-center justify-content-xl-between">
             <!-- this button shows/hides sidebar in mobile mode -->
-            <button type="button" class="btn btn-burger static burger-arrowed collapsed d-flex d-xl-none ml-2 bgc-h-white-l31" data-toggle-mobile="sidebar" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar">
+            <button type="button" class="btn btn-burger static burger-arrowed collapsed d-flex d-xl-none ms-2 bgc-h-white-l31" data-toggle-mobile="sidebar" data-bs-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar">
               <span class="bars text-white"></span>
             </button>
 
-            <a class="navbar-brand ml-2 text-white" href="#">
+            <a class="navbar-brand ms-2 text-white" href="#">
               ACE App
             </a>
           </div>
 
 
           <!-- .navbar-menu toggler -->
-          <button class="navbar-toggler mx-1 p-25" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navbar menu">
+          <button class="navbar-toggler mx-1 p-25" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navbar menu">
             <i class="fa fa-user text-white"></i>
           </button>
 
@@ -71,7 +71,7 @@
             <div class="navbar-nav">
               <ul class="nav nav-compact-2">
                 <li class="nav-item">
-                  <a class="nav-link dropdown-toggle mr-1px" href="#">
+                  <a class="nav-link dropdown-toggle me-1px" href="#">
                     Link
                   </a>
                 </li>
@@ -92,7 +92,7 @@
       <div class="main-container bgc-white">
 
         <!-- Sidebar -->
-        <div id="sidebar" class="sidebar sidebar-fixed expandable sidebar-light" data-backdrop="true" data-dismiss="true" data-swipe="true">
+        <div id="sidebar" class="sidebar sidebar-fixed expandable sidebar-light" data-backdrop="true" data-bs-dismiss="true" data-swipe="true">
           <div class="sidebar-inner">
 
             <div class="ace-scroll flex-grow-1 mt-1px" data-ace-scroll="{}">
@@ -143,8 +143,8 @@
 
     <!-- include common vendor scripts used in demo pages -->
     <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/js/bootstrap.js"></script>
 
 
     <!-- include vendor scripts used in "Starter" page. see "/views//pages/partials/starter/@vendor-scripts.hbs" -->
