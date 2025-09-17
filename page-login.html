@@ -56,10 +56,10 @@
 
                     <div id="loginBgCarousel" class="carousel slide minw-100 h-100">
                       <ol class="d-none carousel-indicators">
-                        <li data-target="#loginBgCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#loginBgCarousel" data-slide-to="1"></li>
-                        <li data-target="#loginBgCarousel" data-slide-to="2"></li>
-                        <li data-target="#loginBgCarousel" data-slide-to="3"></li>
+                        <li data-bs-target="#loginBgCarousel" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#loginBgCarousel" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#loginBgCarousel" data-bs-slide-to="2"></li>
+                        <li data-bs-target="#loginBgCarousel" data-bs-slide-to="3"></li>
                       </ol>
 
                       <div class="carousel-inner minw-100 h-100">
@@ -81,17 +81,17 @@
                               <hr class="mb-1 brc-black-tp10" />
                               <div>
                                 <a id="id-start-carousel" href="#" class="text-95 text-dark-l2 d-inline-block mt-3">
-                                  <i class="far fa-image text-110 text-purple-m1 mr-1 w-2"></i>
+                                  <i class="far fa-image text-110 text-purple-m1 me-1 w-2"></i>
                                   Change background image
                                 </a>
                                 <br />
                                 <a id="id-remove-carousel" href="#" class="text-md text-dark-l2 d-inline-block mt-3">
-                                  <i class="far fa-trash-alt text-110 text-orange-d1 mr-1 w-2"></i>
+                                  <i class="far fa-trash-alt text-110 text-orange-d1 me-1 w-2"></i>
                                   Remove this section
                                 </a>
                                 <br />
                                 <a id="id-fullscreen" href="#" class="text-md text-dark-l2 d-inline-block mt-3">
-                                  <i class="fa fa-expand text-110 text-green-m1 mr-1 w-2"></i>
+                                  <i class="fa fa-expand text-110 text-green-m1 me-1 w-2"></i>
                                   Make full-size
                                 </a>
                               </div>
@@ -157,12 +157,12 @@
                     <!-- you can also use these tab links -->
                     <ul class="d-none mt-n4 mb-4 nav nav-tabs nav-tabs-simple justify-content-end bgc-black-tp11" role="tablist">
                       <li class="nav-item mx-2">
-                        <a class="nav-link active px-2" data-toggle="tab" href="#id-tab-login" role="tab" aria-controls="id-tab-login" aria-selected="true">
+                        <a class="nav-link active px-2" data-bs-toggle="tab" href="#id-tab-login" role="tab" aria-controls="id-tab-login" aria-selected="true">
                           Login
                         </a>
                       </li>
                       <li class="nav-item mx-2">
-                        <a class="nav-link px-2" data-toggle="tab" href="#id-tab-signup" role="tab" aria-controls="id-tab-signup" aria-selected="false">
+                        <a class="nav-link px-2" data-bs-toggle="tab" href="#id-tab-signup" role="tab" aria-controls="id-tab-signup" aria-selected="false">
                           Signup
                         </a>
                       </li>
@@ -175,7 +175,7 @@
                         <!-- show this in desktop -->
                         <div class="d-none d-lg-block col-md-6 offset-md-3 mt-lg-4 px-0">
                           <h4 class="text-dark-tp4 border-b-1 brc-secondary-l2 pb-1 text-130">
-                            <i class="fa fa-coffee text-orange-m1 mr-1"></i>
+                            <i class="fa fa-coffee text-orange-m1 me-1"></i>
                             Welcome Back
                           </h4>
                         </div>
@@ -198,7 +198,7 @@
                         <form autocomplete="off" class="form-row mt-4">
                           <div class="form-group col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
                             <div class="d-flex align-items-center input-floating-label text-blue brc-blue-m2">
-                              <input placeholder="Username" type="text" class="form-control form-control-lg pr-4 shadow-none" id="id-login-username" />
+                              <input placeholder="Username" type="text" class="form-control form-control-lg pe-4 shadow-none" id="id-login-username" />
                               <i class="fa fa-user text-grey-m2 ml-n4"></i>
                               <label class="floating-label text-grey-l1 ml-n3" for="id-login-username">
                                 Username
@@ -209,7 +209,7 @@
 
                           <div class="form-group col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 mt-2 mt-md-1">
                             <div class="d-flex align-items-center input-floating-label text-blue brc-blue-m2">
-                              <input placeholder="Password" type="password" class="form-control form-control-lg pr-4 shadow-none" id="id-login-password" />
+                              <input placeholder="Password" type="password" class="form-control form-control-lg pe-4 shadow-none" id="id-login-password" />
                               <i class="fa fa-key text-grey-m2 ml-n4"></i>
                               <label class="floating-label text-grey-l1 ml-n3" for="id-login-password">
                                 Password
@@ -218,8 +218,8 @@
                           </div>
 
 
-                          <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-right text-md-right mt-n2 mb-2">
-                            <a href="#" class="text-primary-m1 text-95" data-toggle="tab" data-target="#id-tab-forgot">
+                          <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-end text-md-right mt-n2 mb-2">
+                            <a href="#" class="text-primary-m1 text-95" data-bs-toggle="tab" data-bs-target="#id-tab-forgot">
                               Forgot Password?
                             </a>
                           </div>
@@ -227,7 +227,7 @@
 
                           <div class="form-group col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
                             <label class="d-inline-block mt-3 mb-0 text-dark-l1">
-                              <input type="checkbox" class="mr-1" id="id-remember-me" />
+                              <input type="checkbox" class="me-1" id="id-remember-me" />
                               Remember me
                             </label>
 
@@ -245,7 +245,7 @@
 
                             <div class="p-0 px-md-2 text-dark-tp3 my-3">
                               Not a member?
-                              <a class="text-success-m1 text-600 mx-1" data-toggle="tab" data-target="#id-tab-signup" href="#">
+                              <a class="text-success-m1 text-600 mx-1" data-bs-toggle="tab" data-bs-target="#id-tab-signup" href="#">
                                 Signup now
                               </a>
                             </div>
@@ -273,8 +273,8 @@
 
 
                       <div class="tab-pane mh-100 px-3 px-lg-0 pb-3" id="id-tab-signup" data-swipe-prev="#id-tab-login">
-                        <div class="position-tl ml-3 mt-3 mt-lg-0">
-                          <a href="#" class="btn btn-light-default btn-h-light-default btn-a-light-default btn-bgc-tp" data-toggle="tab" data-target="#id-tab-login">
+                        <div class="position-tl ms-3 mt-3 mt-lg-0">
+                          <a href="#" class="btn btn-light-default btn-h-light-default btn-a-light-default btn-bgc-tp" data-bs-toggle="tab" data-bs-target="#id-tab-login">
                             <i class="fa fa-arrow-left"></i>
                           </a>
                         </div>
@@ -282,7 +282,7 @@
                         <!-- show this in desktop -->
                         <div class="d-none d-lg-block col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 mt-lg-4 px-0">
                           <h4 class="text-dark-tp4 border-b-1 brc-grey-l1 pb-1 text-130">
-                            <i class="fa fa-user text-purple mr-1"></i>
+                            <i class="fa fa-user text-purple me-1"></i>
                             Create an Account
                           </h4>
                         </div>
@@ -301,7 +301,7 @@
                         <form autocomplete="off" class="form-row mt-4">
                           <div class="form-group col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
                             <div class="d-flex align-items-center input-floating-label text-success brc-success-m2">
-                              <input placeholder="Email" type="email" class="form-control form-control-lg pr-4 shadow-none" id="id-signup-email" />
+                              <input placeholder="Email" type="email" class="form-control form-control-lg pe-4 shadow-none" id="id-signup-email" />
                               <i class="fa fa-envelope text-grey-m2 ml-n4"></i>
                               <label class="floating-label text-grey-l1 text-100 ml-n3" for="id-signup-email">
                                 Email
@@ -312,7 +312,7 @@
 
                           <div class="form-group col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 mt-1">
                             <div class="d-flex align-items-center input-floating-label text-success brc-success-m2">
-                              <input placeholder="Username" type="text" class="form-control form-control-lg pr-4 shadow-none" id="id-signup-username" />
+                              <input placeholder="Username" type="text" class="form-control form-control-lg pe-4 shadow-none" id="id-signup-username" />
                               <i class="fa fa-user text-grey-m2 ml-n4"></i>
                               <label class="floating-label text-grey-l1 text-100 ml-n3" for="id-signup-username">
                                 Username
@@ -323,7 +323,7 @@
 
                           <div class="form-group col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 mt-1">
                             <div class="d-flex align-items-center input-floating-label text-success brc-success-m2">
-                              <input placeholder="Password" type="password" class="form-control form-control-lg pr-4 shadow-none" id="id-signup-password" />
+                              <input placeholder="Password" type="password" class="form-control form-control-lg pe-4 shadow-none" id="id-signup-password" />
                               <i class="fa fa-key text-grey-m2 ml-n4"></i>
                               <label class="floating-label text-grey-l1 text-100 ml-n3" for="id-signup-password">
                                 Password
@@ -334,7 +334,7 @@
 
                           <div class="form-group col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 mt-1">
                             <div class="d-flex align-items-center input-floating-label text-success brc-success-m2">
-                              <input placeholder="Confirm Password" type="password" class="form-control form-control-lg pr-4 shadow-none" id="id-signup-password2" />
+                              <input placeholder="Confirm Password" type="password" class="form-control form-control-lg pe-4 shadow-none" id="id-signup-password2" />
                               <i class="fas fa-sync-alt text-grey-m2 ml-n4"></i>
                               <label class="floating-label text-grey-l1 text-100 ml-n3" for="id-signup-password2">
                                 Confirm Password
@@ -345,7 +345,7 @@
 
                           <div class="form-group col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 mt-2">
                             <label class="d-inline-block mt-3 mb-0 text-secondary-d2">
-                              <input type="checkbox" class="mr-1" id="id-agree" />
+                              <input type="checkbox" class="me-1" id="id-agree" />
                               <span class="text-dark-m3">I have read and agree to <a href="#" class="text-blue-d2">terms</a></span>
                             </label>
 
@@ -363,7 +363,7 @@
 
                             <div class="p-0 px-md-2 text-dark-tp4 my-3">
                               Already a member?
-                              <a class="text-blue-d1 text-600 mx-1" data-toggle="tab" data-target="#id-tab-login" href="#">
+                              <a class="text-blue-d1 text-600 mx-1" data-bs-toggle="tab" data-bs-target="#id-tab-login" href="#">
                                 Login here
                               </a>
                             </div>
@@ -391,8 +391,8 @@
 
 
                       <div class="tab-pane mh-100 px-3 px-lg-0 pb-3" id="id-tab-forgot" data-swipe-prev="#id-tab-login">
-                        <div class="position-tl ml-3 mt-2">
-                          <a href="#" class="btn btn-light-default btn-h-light-default btn-a-light-default btn-bgc-tp" data-toggle="tab" data-target="#id-tab-login">
+                        <div class="position-tl ms-3 mt-2">
+                          <a href="#" class="btn btn-light-default btn-h-light-default btn-a-light-default btn-bgc-tp" data-bs-toggle="tab" data-bs-target="#id-tab-login">
                             <i class="fa fa-arrow-left"></i>
                           </a>
                         </div>
@@ -400,7 +400,7 @@
 
                         <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 mt-5 px-0">
                           <h4 class="pt-4 pt-md-0 text-dark-tp4 border-b-1 brc-grey-l2 pb-1 text-130">
-                            <i class="fa fa-key text-brown-m1 mr-1"></i>
+                            <i class="fa fa-key text-brown-m1 me-1"></i>
                             Recover Password
                           </h4>
                         </div>
@@ -412,7 +412,7 @@
                               Enter your email address and we'll send you the instructions:
                             </label>
                             <div class="d-flex align-items-center">
-                              <input type="email" class="form-control form-control-lg pr-4 shadow-none" id="id-recover-email" placeholder="Email" />
+                              <input type="email" class="form-control form-control-lg pe-4 shadow-none" id="id-recover-email" placeholder="Email" />
                               <i class="fa fa-envelope text-grey-m2 ml-n4"></i>
                             </div>
                           </div>
@@ -431,8 +431,8 @@
                             <hr class="brc-default-l2 mt-0 mb-2 w-100" />
 
                             <div class="p-0 px-md-2 text-dark-tp4 my-3">
-                              <a class="text-blue-d1 text-600 btn-text-slide-x" data-toggle="tab" data-target="#id-tab-login" href="#">
-                                <i class="btn-text-2 fa fa-arrow-left text-110 align-text-bottom mr-2"></i>Back to Login
+                              <a class="text-blue-d1 text-600 btn-text-slide-x" data-bs-toggle="tab" data-bs-target="#id-tab-login" href="#">
+                                <i class="btn-text-2 fa fa-arrow-left text-110 align-text-bottom me-2"></i>Back to Login
                               </a>
                             </div>
 
@@ -449,7 +449,7 @@
             </div><!-- /.row -->
 
             <div class="d-lg-none my-3 text-white-tp1 text-center">
-              <i class="fa fa-leaf text-success-l3 mr-1 text-110"></i> Ace Company &copy; 2021
+              <i class="fa fa-leaf text-success-l3 me-1 text-110"></i> Ace Company &copy; 2021
             </div>
           </div>
         </div>
@@ -460,8 +460,8 @@
 
     <!-- include common vendor scripts used in demo pages -->
     <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/js/bootstrap.js"></script>
 
 
     <!-- include vendor scripts used in "Login" page. see "/views//pages/partials/page-login/@vendor-scripts.hbs" -->
